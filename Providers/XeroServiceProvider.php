@@ -1,5 +1,5 @@
 <?php
-namespace DrawMyAttention\XeroLaravel\Providers;
+namespace ByronTudhope\XeroLaravel\Providers;
 
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Support\ServiceProvider;
@@ -61,6 +61,14 @@ class XeroServiceProvider extends ServiceProvider
 
         $this->app->bind('XeroAttachment', function(){
             return new \XeroPHP\Models\Accounting\Attachment();
+        });
+
+        $this->app->bind('XeroAccount', function(){
+           return new \XeroPHP\Models\Accounting\Account();
+        });
+
+        $this->app->bind('XeroPayment', function(){
+           return new \XeroPHP\Models\Accounting\Payment();
         });
     }
 }

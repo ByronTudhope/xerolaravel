@@ -6,7 +6,7 @@ A Laravel 5 wrapper for calcinai/xero-php (a custom API for integrating with Xer
 
 **Require the package**
 
-    composer require drawmyattention/xerolaravel "1.0.*"
+    composer require byrontudhope/xerolaravel "1.0.*"
     
 **Publish the configuration file**
 
@@ -21,11 +21,11 @@ Ensure that the location of the RSA keys matches the required format ```(file://
 
 **Add the Service Provider to your ```config/app.php``` under ```providers```**
 
-    'DrawMyAttention\XeroLaravel\Providers\XeroServiceProvider',
+    'ByronTudhope\XeroLaravel\Providers\XeroServiceProvider',
    
 **Register the Facades within ```config/app.php``` under ```aliases```
 
-    'XeroPrivate'=> 'DrawMyAttention\XeroLaravel\Facades\XeroPrivate',
+    'XeroPrivate'=> 'ByronTudhope\XeroLaravel\Facades\XeroPrivate',
 
 ## Dependencies and Requirements
 

@@ -1,5 +1,5 @@
 <?php
-namespace DrawMyAttention\XeroLaravel\Facades;
+namespace ByronTudhope\XeroLaravel\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -50,8 +50,8 @@ return [
         |
         */
 
-        'rsa_private_key'  => 'file:///home/absolutepath/vendor/src/drawmyattention/xerolaravel/Certificates/privatekey.pem',
-        'rsa_public_key'   => 'file:///home/absolutepath/vendor/src/drawmyattention/xerolaravel/Certificates/publickey.cer'
+        'rsa_private_key'  => 'file:///home/absolutepath/vendor/src/byrontudhope/xerolaravel/Certificates/privatekey.pem',
+        'rsa_public_key'   => 'file:///home/absolutepath/vendor/src/byrontudhope/xerolaravel/Certificates/publickey.cer'
     ]
 
 ];

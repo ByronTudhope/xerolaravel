@@ -1,5 +1,5 @@
 {
-    "name": "drawmyattention/xerolaravel",
+    "name": "byrontudhope/xerolaravel",
     "description": "A Laravel 5 wrapper for Xero's PHP API",
     "repositories": [
       {
@@ -12,13 +12,13 @@
     },
     "authors": [
         {
-            "name": "Amo Chohan",
-            "email": "amo.chohan@gmail.com"
+            "name": "Byron Tudhope",
+            "email": "byrontudhope@gmail.com"
         }
     ],
     "autoload": {
         "psr-4": {
-          "DrawMyAttention\\XeroLaravel\\": "/"
+          "ByronTudhope\\XeroLaravel\\": "/"
         }
     }
 }
